@@ -504,12 +504,15 @@
             <textarea class="form-textarea" name="text" placeholder="Введіть текст"></textarea>
           </label>
           <label class="form-field checkbox">
-            <input class="checkbox__input visually-hidden" type="checkbox" name="policy" />
-            <span class="checkbox__icon"></span>
-            Погоджуюся з розсилкою та приймаю
-            <a class="form__link" href="#">Умови договору</a>
+            <input class="checkbox-input visually-hidden" type="checkbox" name="policy" />
+              <svg class="icon-check" width="16" height="15">
+                <use href="./svg/icons.svg#icon-check"></use>
+              </svg>
+            <span class="text-bottom">Погоджуюся з розсилкою та приймаю
+            <a class="form-link" href="#">Умови договору</a>
+            </span>
           </label>
-          <button class="btn form__btn" type="submit">Відправити</button>
+          <button class="form-btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
