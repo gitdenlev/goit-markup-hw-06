@@ -466,6 +466,15 @@
         </div>
         <div class="footer-soc-networks-2">
           <p class="footer-soc-title-2">підпишіться на розсилку</p>
+           <label class="input-email">
+            <textarea class="email-area" name="text" placeholder="E-mail" type="mail"></textarea>
+          </label>
+          <button class="input-button">
+            <span>Підписатися</span>
+            <svg class="telegram-icon" width="24" height="24">
+              <use href="./svg/icons.svg#icon-telegram"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </footer>
@@ -503,15 +512,20 @@
             <span class="form-title">Коментар</span>
             <textarea class="form-textarea" name="text" placeholder="Введіть текст"></textarea>
           </label>
-          <label class="form-field checkbox">
-            <input class="checkbox-input visually-hidden" type="checkbox" name="policy" />
-              <svg class="icon-check" width="16" height="15">
-                <use href="./svg/icons.svg#icon-check"></use>
+            <input 
+            class="input-check unseen" 
+            type="checkbox" 
+            name="policy"
+            id="privacy"/>
+            <label for="privacy" class="check-text">
+            <span>
+              <svg class="check-icon" width="16" heigh="15">
+                <use href="./svg/icons.svg#icon-vector"></use>
               </svg>
-            <span class="text-bottom">Погоджуюся з розсилкою та приймаю
-            <a class="form-link" href="#">Умови договору</a>
             </span>
-          </label>
+            Погоджуюся з розсилкою та приймаю
+              <a href="#" class="link-input">Умови договору</a>
+            </label>
           <button class="form-btn" type="submit">Відправити</button>
         </form>
       </div>
