@@ -466,20 +466,19 @@
         </div>
         <div class="box-email-to">
           <p class="footer-email-to">підпишіться на розсилку</p>
-          <form action="" class="modal-form">
-           <label for="email-input">
-            <input class="footer-input" name="text" placeholder="E-mail" type="email" id="email-input"></input>
-          <button type="submit" class="form-bnt">
+          <form class="modal-form">
+           <label>
+            <input class="footer-input" name="text" placeholder="E-mail" type="email" id="email-input">
+          </label>
+            <button type="submit" class="form-bnt">
             Підписатися
-            <span class="btn-teleg">
             <svg class="bnt-icon" width="24" height="24">
               <use href="./svg/icons.svg#icon-telegram"></use>
             </svg>
-            </span>
           </button>
-          </label>
           </form>
           </div>
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -521,8 +520,13 @@
             name="policy"
             id="privacy"/>
             <label for="privacy" class="check-text">
+              <input 
+            class="input-check unseen" 
+            type="checkbox" 
+            name="policy"
+            id="privacy"/>
             <span>
-              <svg class="check-icon" width="16" heigh="15">
+              <svg class="check-icon" width="16" height="15">
                 <use href="./svg/icons.svg#icon-vector"></use>
               </svg>
             </span>
