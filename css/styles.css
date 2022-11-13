@@ -746,10 +746,7 @@ footer {
 }
 .modal-input-mail {
   position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 12px;
+  display: flex;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input-mail:hover {
@@ -900,6 +897,10 @@ footer {
   justify-content: center;
   text-indent: 15px;
   padding-top: 15px;
+}
+.input-wrap {
+  position: relative;
+  margin-bottom: 10px;
 }
 
 /*Футер(секція підписатися)*/

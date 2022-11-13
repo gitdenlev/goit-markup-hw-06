@@ -489,6 +489,7 @@
         </button>
         <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
+          <div class="input-wrap">
           <label class="input-label">
             <span class="form-title-name">Ім'я</span>
             <input class="modal-input" type="text" name="user_name" required/>
@@ -496,6 +497,8 @@
               <use href="./svg/icons.svg#icon-person"></use>
             </svg>
           </label>
+          </div>
+          <div class="input-wrap">
           <label class="input-label">
             <span class="form-title">Телефон</span>
             <input class="modal-input" type="tel" name="user_phone_number" required/>
@@ -503,6 +506,8 @@
               <use href="./svg/icons.svg#icon-phone"></use>
             </svg>
           </label>
+          </div>
+          <div class="input-wrap">
           <label class="input-label">
             <span class="form-title">Пошта</span>
             <input class="modal-input" type="email" name="user_email" required/>
@@ -510,16 +515,20 @@
               <use href="./svg/icons.svg#icon-email"></use>
             </svg>
           </label>
+          </div>
+          <div class="input-wrap">
           <label class="input-label">
             <span class="form-title">Коментар</span>
             <textarea class="form-textarea" name="text" placeholder="Введіть текст"></textarea>
           </label>
+          </div>
           <input 
             class="input-check unseen" 
             type="checkbox" 
             name="policy"
             id="privacy"
             />
+            <div class="input-wrap">
             <label for="privacy" class="check-text">
             <span class="inpt-check">
               <svg class="check-icon" width="16" height="15">
@@ -529,6 +538,7 @@
             Погоджуюся з розсилкою та приймаю
               <a href="#" class="link-input">Умови договору</a>
             </label>
+            </div>
           <button class="form-btn" type="submit">Відправити</button>
         </form>
       </div>
